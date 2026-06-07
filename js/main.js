@@ -81,7 +81,7 @@
   if (!inputs.length || !totalEl) return;
 
   function formatTSh(amount) {
-    return 'TSh ' + amount.toLocaleString('en-TZ');
+    return 'TSH ' + amount.toLocaleString('en-TZ');
   }
 
   function calculate() {

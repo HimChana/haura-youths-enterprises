@@ -323,6 +323,7 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   gap: 2px;
+  align-items: center;
 }
 
 .stat__number {

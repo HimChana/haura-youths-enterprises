@@ -117,6 +117,11 @@
                   <td>Heavy</td>
                   <td>TSh 1,000</td>
                 </tr>
+                <tr>
+                  <td> Duvets</td>
+                  <td>Heavy</td>
+                  <td>TSh 5,000</td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -137,7 +142,7 @@
                 <div style="width: 32px; height: 32px; border-radius: 50%; background: rgba(2,132,199,0.1); border: 1.5px solid rgba(2,132,199,0.3); display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.75rem; font-weight: 600; color: var(--color-accent); flex-shrink: 0;">01</div>
                 <div>
                   <p style="font-size: 0.875rem; font-weight: 600; color: var(--color-text-main); margin-bottom: 2px;">Contact us via WhatsApp or email</p>
-                  <p style="font-size: 0.8rem; color: var(--color-text-muted);">Send your item list and hostel block details.</p>
+                  <p style="font-size: 0.8rem; color: var(--color-text-muted);">Send your item list and house/hostel block details.</p>
                 </div>
               </div>
               <div style="display: flex; align-items: flex-start; gap: 16px;">
@@ -186,7 +191,7 @@
                 />
               </div>
               <div class="calc-item">
-                <label class="calc-item__label" for="qty-shirts">Shirts / Blouses</label>
+                <label class="calc-item__label" for="qty-shirts">Shirts/Blouses</label>
                 <span class="calc-item__price">× TSh 500</span>
                 <input
                   class="calc-item__input"
@@ -213,7 +218,7 @@
               </div>
 
               <!-- Heavy items -->
-              <p style="font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-light); margin-top: 18px; margin-bottom: 2px;">Heavy Items — TSh 1,000 each</p>
+              <p style="font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-light); margin-top: 18px; margin-bottom: 2px;">Heavy Items — TSh 1,000 each &amp; TSh 5,000 for Duvets</p>
 
               <div class="calc-item">
                 <label class="calc-item__label" for="qty-jeans">Jeans</label>
@@ -254,7 +259,19 @@
                   aria-label="Number of Bed Sheets"
                 />
               </div>
-            </div>
+             <div class="calc-item">
+                <label class="calc-item__label" for="qty-duvets">Duvets</label>
+                <span class="calc-item__price">× TSh 5,000</span>
+                <input
+                  class="calc-item__input"
+                  type="number"
+                  id="qty-duvets"
+                  data-item="duvets"
+                  min="0"
+                  value="0"
+                  aria-label="Number of duvets"
+                />
+              </div>
 
             <!-- Total row -->
             <div class="calc-total-row">

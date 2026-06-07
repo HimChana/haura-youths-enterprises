@@ -68,6 +68,7 @@
     'jeans':     1000,
     'jackets':   1000,
     'bedsheets': 1000,
+    'duvets':    5000,
   };
 
   const DELIVERY_FEE = 500;
